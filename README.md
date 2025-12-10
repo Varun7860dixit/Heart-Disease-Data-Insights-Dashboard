@@ -1,75 +1,72 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Heart Disease Data Insights - README</title>
-</head>
-<body>
-
 <h1>Heart Disease Data Insights Dashboard</h1>
 
 <p>
-This repository contains a Power BI dashboard created to analyze heart disease data,
-understand risk factors, and explore various health-related patterns in a clear visual format.
-The project includes multiple dashboard pages and interactive filters for deeper insights.
+This repository contains an interactive Power BI dashboard designed to analyze heart disease data.
+The project provides visual insights into patient demographics, health factors, and relationships
+between major medical indicators.
 </p>
 
-<h2>📷 Dashboard Screenshots</h2>
+<h2>📊 Dashboard Pages</h2>
 
-<h3>Overview Page</h3>
-<img src="./images/Overview.png" alt="Overview Screenshot" width="600">
+<h3>1. Overview Page</h3>
+<img src="./Page1.png" alt="Overview Dashboard" width="600">
 
-<h3>Health Factors Page</h3>
-<img src="./images/Health_Factors.png" alt="Health Factors Screenshot" width="600">
+<h3>2. Health Factors Page</h3>
+<img src="./Page2.png" alt="Health Factors Dashboard" width="600">
 
-<h3>Correlation Page</h3>
-<img src="./images/Correlation.png" alt="Correlation Screenshot" width="600">
+<h3>3. Correlation Page</h3>
+<img src="./Page3.png" alt="Correlation Dashboard" width="600">
 
-<h2>📌 Features</h2>
+<h2>📁 Files Included</h2>
 <ul>
-  <li>Overall heart disease rate and key population metrics</li>
-  <li Age, gender, and BMI distribution analysis</li>
-  <li>Charts showing alcohol intake, sugar consumption, and stress levels</li>
-  <li>Cholesterol trend by blood pressure and disease status</li>
-  <li>Correlation heatmap between major health indicators</li>
-  <li>Interactive filters: Gender, Age Group, Smoking Status, Heart Disease</li>
+  <li><b>Heart_Disease_Data_Insights.pbix</b> – Main Power BI dashboard</li>
+  <li><b>heart_disease.csv</b> – Dataset used for analysis</li>
+  <li><b>Page1.png</b> – Overview screenshot</li>
+  <li><b>Page2.png</b> – Health Factors screenshot</li>
+  <li><b>Page3.png</b> – Correlation screenshot</li>
 </ul>
-
-<h2>📁 Repository Contents</h2>
-<ul>
-  <li><b>pro.pbix</b> – Power BI Dashboard</li>
-  <li><b>images/</b> – Screenshots used in this README</li>
-  <li><b>data/</b> (optional) – Dataset if included</li>
-</ul>
-
-<h2>📄 How to View the Dashboard</h2>
-<ol>
-  <li>Install Power BI Desktop</li>
-  <li>Download or clone this repository</li>
-  <li>Open <b>pro.pbix</b> in Power BI Desktop</li>
-  <li>Use the sidebar filters to explore different patient groups</li>
-</ol>
 
 <h2>🔍 Key Insights</h2>
 <ul>
-  <li>Heart disease trends vary significantly with age and gender.</li>
-  <li>BMI and blood pressure show noticeable patterns among affected individuals.</li>
-  <li>High stress, sugar intake, and cholesterol levels align with disease presence.</li>
-  <li>Correlation heatmap reveals relationships between health metrics such as BMI, BP, cholesterol, CRP, etc.</li>
+  <li><b>KPI Highlights:</b> Total patients count, overall heart disease rate, average cholesterol, average BMI, and high blood pressure rate.</li>
+  <li>Heart disease rate and distribution across gender and age groups.</li>
+  <li>BMI category breakdown of all patients, including normal, overweight, obese, and underweight groups.</li>
+  <li>Impact of alcohol intake, sugar consumption, and stress levels on patient distribution.</li>
+  <li>Cholesterol and blood pressure patterns for patients with and without heart disease.</li>
+  <li>Correlation matrix showing relationships between major health metrics like BP, BMI, cholesterol, CRP, and triglycerides.</li>
 </ul>
 
-<h2>🗂️ How it Was Built</h2>
+<h2>📄 How to Use</h2>
+<ol>
+  <li>Download or clone this repository</li>
+  <li>Open <b>Heart_Disease_Data_Insights.pbix</b> in Power BI Desktop</li>
+  <li>Explore different pages and apply filters to view insights</li>
+</ol>
+
+<h2>🛠️ Tools & Techniques</h2>
 <ul>
-  <li>Data Cleaning – Power Query</li>
-  <li>Visualization – Power BI Desktop</li>
-  <li>Dashboard Design – Multi-page layout with interactive slicers</li>
+  <li>Power BI Desktop</li>
+  <li>Power Query for initial data cleaning</li>
+  <li>Interactive visualizations, slicers, and KPI cards</li>
+
+  <li><b>DAX formulas</b> for creating measures and custom columns, including:<br>
+    - Heart Disease Rate (%)<br>
+    - Average Cholesterol & Average BMI<br>
+    - High Blood Pressure Rate (%)<br>
+    - <b>Age Group (Custom Column using DAX)</b><br>
+    - <b>BMI Category (Custom Column using DAX)</b><br>
+    - Other KPI calculations for dashboard insights
+  </li>
+
+  <li><b>Python Visual</b> in Power BI to generate the Correlation Heatmap using Python libraries.</li>
 </ul>
 
-<h2>📬 Contact</h2>
+
+<h2>📬 Author</h2>
 <p>
-Author: <b>Varun Dixit</b><br>
-Email: your-email@example.com<br>
-GitHub: https://github.com/yourusername
+<b>Varun Dixit</b><br>
+GitHub: https://github.com/Varun7860dixit <br>
+LinkedIn: [varun-dixit-0b1b48246/](https://www.linkedin.com/in/varun-dixit-6946a6297/)
 </p>
 
 </body>
