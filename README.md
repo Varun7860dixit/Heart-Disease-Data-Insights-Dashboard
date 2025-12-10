@@ -62,12 +62,10 @@ between major medical indicators.
 </ul>
 
 
-<h2>📬 Author</h2>
-<p>
-<b>Varun Dixit</b><br>
-GitHub: https://github.com/Varun7860dixit <br>
-LinkedIn: [varun-dixit-0b1b48246/](https://www.linkedin.com/in/varun-dixit-6946a6297/)
-</p>
+---
+🙋‍♂️ Let's Connect
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/varun-dixit-6946a6297/) or check out more of my work. I’m always open to feedback, collaboration, or discussion!
+---
 
 </body>
 </html>
