@@ -63,8 +63,8 @@ between major medical indicators.
 
 
 ---
-🙋‍♂️ Let's Connect <br>
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/varun-dixit-6946a6297/) or check out more of my work. I’m always open to feedback, collaboration, or discussion!
+🙋‍♂️ Let's Connect <br><br>
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/varun-dixit-6946a6297/) or check out more of my work. I’m always open to feedback, collaboration, or discussion!<br>
 ---
 
 </body>
